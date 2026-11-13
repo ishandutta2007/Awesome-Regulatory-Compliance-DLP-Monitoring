@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring?style=social" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring?style=social" alt="GitHub Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
@@ -62,7 +62,7 @@ Commercial, cloud-hosted Regulatory Compliance automation suites and enterprise 
 
 Self-hosted, transparent, and community-driven tools for data loss prevention, regulatory compliance monitoring, security posture scanning, and sensitive data discovery.
 
-> ℹ️ *Sorted descending by GitHub star counts. Click the star badge beside each project to inspect community stargazers.*
+> ℹ️ *Sorted descending by GitHub Stars_Counts. Click the Stars_Badge beside each project to inspect community stargazers.*
 
 ### 1. [Gitleaks](https://github.com/gitleaks/gitleaks) [![Stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
 * **Stack:** Go | **License:** MIT
