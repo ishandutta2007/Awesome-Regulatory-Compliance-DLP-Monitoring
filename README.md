@@ -5,10 +5,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring?style=social" alt="GitHub Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring?style=social" alt="GitHub Forks"></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 🛡️ **A curated collection of top Regulatory Compliance and Data Loss Prevention (DLP) Monitoring platforms** — featuring enterprise GRC SaaS automation platforms, real-time data loss prevention engines, and production-ready open-source security tools for audit readiness, sensitive data discovery, and PII exposure monitoring.  
@@ -24,6 +26,8 @@
 - [📊 Comparison at a Glance](#-comparison-at-a-glance)
 - [🎯 Frameworks & Key Standards](#-frameworks--key-standards)
 - [🤝 Contributing](#-contributing)
+- [💖 Support](#-support)
+- [⭐ Star History](#-star-history)
 - [📄 License](#-license)
 
 ---
@@ -169,6 +173,22 @@ Contributions, issues, and feature proposals are welcomed with open arms!
 5. Open a Pull Request 🚀
 
 *Please ensure submitted open-source tools are actively maintained (commit/release within the past 12 months) and properly categorized with stack and licensing details.*
+
+---
+
+## 💖 Support
+
+A huge thank you to everyone exploring, using, and contributing to this curated compliance and DLP catalog! If you find this repository valuable:
+
+- ⭐ **Star this repository** to support discovery and help other engineers find it.
+- 🍴 **Fork and share** with colleagues, devops teams, and security practitioners.
+- ☕ **Buy me a coffee / sponsor:** If this saved you time or aided your evaluation roadmap, consider supporting the work via the [**GitHub Sponsors Dashboard**](https://github.com/sponsors/ishandutta2007) — every bit of support is deeply appreciated!
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring&type=date&legend=top-left)
 
 ---
 
