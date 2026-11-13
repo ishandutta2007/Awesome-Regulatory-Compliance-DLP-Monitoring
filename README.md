@@ -1,168 +1,184 @@
-# Awesome-Regulatory-Compliance-DLP-Monitoring
-
 # Awesome Regulatory Compliance & DLP Monitoring
 
-> A curated list of top Regulatory Compliance and Data Loss Prevention (DLP) Monitoring platforms — both SaaS/Hosted commercial compliance automation suites and open-source alternatives for maintaining audit readiness and monitoring sensitive data exposure.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Regulatory Compliance &amp; DLP Monitoring Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Regulatory-Compliance-DLP-Monitoring?style=social" alt="GitHub Forks"></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License: CC0 1.0"></a>
+</p>
+
+> 🛡️ **A curated collection of top Regulatory Compliance and Data Loss Prevention (DLP) Monitoring platforms** — featuring enterprise GRC SaaS automation platforms, real-time data loss prevention engines, and production-ready open-source security tools for audit readiness, sensitive data discovery, and PII exposure monitoring.  
+> 🌟 *Star this repository if you find it helpful for your security and compliance roadmap!* 🌟
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Vanta](#vanta)
-  - [Drata](#drata)
-  - [Secureframe](#secureframe)
-  - [Hyperproof](#hyperproof)
-  - [Scrut Automation](#scrut-automation)
-  - [Sprinto](#sprinto)
-  - [Thoropass](#thoropass)
-  - [TrustArc](#trustarc)
-  - [Druva Compliance Monitoring](#druva-compliance-monitoring)
-- [Open-Source Software](#-open-source-software)
-  - [Openlane Core](#openlane-core)
-  - [Microsoft Presidio](#microsoft-presidio)
-  - [Hawk-Eye](#hawk-eye)
-  - [Data Boar](#data-boar)
-  - [Lacuna](#lacuna)
-  - [Gitleaks / Betterleaks](#gitleaks--betterleaks)
-  - [Wazuh (Compliance Monitoring Context)](#wazuh-compliance-monitoring-context)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source Software](#-open-source-software)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🎯 Frameworks & Key Standards](#-frameworks--key-standards)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 🌐 Sector Overview & Market Dynamics
 
-Commercial, cloud-hosted Regulatory Compliance and DLP Monitoring platforms. These are not open-source but are included as reference points for feature comparison.
+The global Data Loss Prevention (DLP) and automated compliance monitoring sector is valued at **~$3.5B to $4.9B** and projected to reach **~$13.8B by 2032–2034**, expanding at a robust **11% to 18% CAGR** driven by escalating statutory mandates (GDPR, HIPAA, PCI-DSS v4.0, SOC 2, ISO 42001) and heavy regulatory breach fines.
 
-### Vanta
-**Type:** Agentic trust management with AI-powered evidence lifecycle
-Vanta's Compliance Agent automates the full evidence lifecycle—generating tailored documents, collecting, reviewing, and validating evidence—with full program awareness across frameworks, controls, and policies . It detects policy-to-program inconsistencies before they become audit issues and provides AI-driven remediation guidance . Vanta is among the first companies certified under ISO 42001 for responsible AI management, with strict data governance ensuring no customer data is used for model training . Users report saving up to four hours weekly, with 91% saying it improved audit readiness .
-**Best for:** Organizations wanting a mature compliance automation platform with strong AI agent capabilities and ISO 42001-certified responsible AI practices.
-
-### Drata
-**Type:** GRC platform with continuous compliance and SafeBase Trust Center
-Drata's Q4 2025 releases added no-code custom workflows for automating follow-ups based on control status or evidence gaps, MTTR insights for failed monitoring tests, and support for TISAX, NYDFS, and ISO/IEC 27018:2025 frameworks . It supports multiple HRIS and IdP connections for unified workforce evidence, and AI Feature Items enable publishing structured AI disclosures in the Trust Center . SafeBase Documents APIs allow programmatic document lifecycle management, and a Chrome extension supports questionnaire import .
-**Best for:** Enterprises needing scalable GRC with multi-framework support, continuous monitoring, and a deeply integrated Trust Center powered by SafeBase.
-
-### Secureframe
-**Type:** Compliance automation with tiered packages
-Secureframe's Fundamentals plan starts at $7,500/year with infrastructure monitoring, evidence collection, risk management, policy management, and Trust Center . The Complete tier adds advanced third-party risk management, advanced risk management, advanced user access reviews, and advanced questionnaire automation (15,000 questions/year) . It offers 300+ native integrations, continuous control monitoring, and Comply AI for policies and remediation . Defense tier supports CMMC requirements with SSP, POA&M, and SPRS score tracking .
-**Best for:** Mid-market organizations wanting a comprehensive compliance platform with clear tiered pricing and strong CMMC support.
-
-### Hyperproof
-**Type:** GRC platform with AI Guided Experiences
-Hyperproof's AI Guided Experiences handle complexity behind the scenes while keeping users in control. **Suggested Links** eliminates manual mapping by analyzing controls, policies, risks, and evidence to surface missing connections . **Evidence Collection and Validation** identifies required evidence, drafts credential requests, and validates evidence items for potential audit failures before the auditor finds them . The platform offers modular purchases for Policies, Access Reviews, Risk Register, and Vendors .
-**Best for:** Compliance teams wanting AI-assisted mapping and evidence validation that reduces manual work without sacrificing control.
-
-### Scrut Automation
-**Type:** AI-powered risk and compliance with Scrut Teammates
-Scrut Teammates is an AI-powered risk and compliance agent leveraging a proprietary knowledge graph and specialized AI agents . Scrut is ISO 42001 certified for AI risk management, with no data sharing or cross-training, privacy-by-design encryption, and opt-in configurability . All AI workflows are regularly audited for compliance and security . The platform emphasizes moving 10x faster by automating execution and eliminating context switching.
-**Best for:** Organizations prioritizing AI governance (ISO 42001) and wanting AI agents that keep humans in control.
-
-### Sprinto
-**Type:** Autonomous trust platform with multi-approval workflows
-Sprinto offers 25+ frameworks automated out of the box with 200+ digitized, continuous monitoring across 300+ integrations, and automated evidence collection . Enterprise features include multi-approval policy workflows, role-based access control with custom roles, configurable multi-step approval workflows, and AI-powered vendor assessments . It supports multi-entity workspaces, custom risk registers with ISO 27005 alignment, and AI systems inventory with AI risk assessments .
-**Best for:** Enterprises needing granular approval workflows and multi-entity support alongside broad framework coverage.
-
-### Thoropass
-**Type:** Compliance and audit platform with expanded frameworks
-Thoropass added eight frameworks in 2025 including CSA STAR, DORA, FERPA, WCAG 2, C5 (Germany), ISO 27017, NIST 800-53, and NIST 800-171 . It emphasizes deep alignment to a multi-framework control architecture, allowing ISO 27001 and CSA STAR to be aligned in a single workflow. Suited for cloud service providers, financial services firms (DORA), and organizations targeting European or public sector markets.
-**Best for:** Organizations needing specific framework coverage (DORA, C5, CSA STAR) with a unified multi-framework control architecture.
-
-### TrustArc
-**Type:** Privacy management platform with Arc Intelligence
-TrustArc's next-generation platform is built around Arc Intelligence, a contextual, explainable AI engine purpose-built for privacy . It understands 1,000+ regulations and 50,000+ references with full source citations, integrates with live program data, and ensures customer data is never used to train models . The platform unifies PrivacyCentral, Assessment Manager, and Cookie Consent Manager into one intelligent workspace with an action-oriented homepage and universal command bar .
-**Best for:** Privacy teams wanting an explainable, citation-backed AI layer specifically designed for privacy regulations.
-
-### Druva Compliance Monitoring
-**Type:** Data protection with Sensitive Data Governance and end-user violation resolution
-Druva provides compliance monitoring through its Sensitive Data Governance Dashboard, scanning backed-up data across endpoints, Microsoft 365, and Google Workspace for policy violations . Administrators can enable **end-user violation visibility**, allowing users to review and resolve violations (Resolve, Acceptable Risk, False Positive, or Delete) without admin intervention, while admins retain control over the workflow . Druva's DLP capabilities include remote data wipe (user or admin-initiated), geo-tracking, and enforced device encryption .
-**Best for:** Druva customers wanting data-centric compliance monitoring with delegated violation resolution and built-in DLP controls.
+The market remains **moderately to highly fragmented**: traditional infrastructure and endpoint security giants (Broadcom, Trellix, Forcepoint) share market share with cloud-native hyperscaler offerings (Microsoft Purview) and fast-growing GRC unicorns (Vanta, Drata, Secureframe), resulting in high ongoing M&A consolidation rather than a single winner-take-all monopoly.
 
 ---
 
-## 🟩 Open-Source Software
+## ☁️ SaaS / Hosted Platforms
 
-Self-hosted, community-driven Regulatory Compliance and DLP Monitoring tools. The open-source ecosystem spans **compliance automation platforms**, **PII detection and anonymization libraries**, **sensitive data discovery scanners**, and **data governance engines**.
+Commercial, cloud-hosted Regulatory Compliance automation suites and enterprise Data Loss Prevention (DLP) monitoring solutions. Sorted by company scale (Valuation / Revenue descending):
 
-### Openlane Core
-**Stack:** Go / GraphQL / PostgreSQL | **License:** Apache-2.0
-Openlane Core is an open-source compliance automation platform for SOC 2, GDPR, ISO 27001, NIST 800-53, and more . It provides a comprehensive GRC foundation with modules for controls, policies, risks, evidence, vendors, and trust center functionality . The project includes a workflow engine for orchestrating compliance processes, a catalog system for managing products and features, entitlements with Stripe integration, and multi-tenant file storage . It is actively developed with 280+ GitHub stars .
-**Best for:** Organizations wanting a genuinely open-source compliance automation platform under a permissive Apache-2.0 license, accepting the operational overhead of a Go/PostgreSQL stack.
+| SaaS Solution | Scale (Valuation / ARR) | Starting Tier Pricing | Free Tier / Trial Limit | Key Focus & Compliance Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| [**Vanta**](https://www.vanta.com/) | 🦄 **$4.15B Valuation**<br>📈 *$300M+ ARR* | **$7,500/year** (Essentials Plan, 1 framework for startups &lt;50 employees) | **No free tier or public self-serve trial** (Demo & customized guided pilot only) | Agentic trust management, continuous evidence lifecycle collection, automated ISO 42001 / SOC 2 / HIPAA compliance, and Trust Center. |
+| [**Drata**](https://drata.com/) | 🦄 **$2.0B Valuation**<br>📈 *$100M+ ARR* | **$7,500/year** (Foundation Plan, single framework for early-stage teams) | **No free tier or self-serve trial** (Requires sales consultation & guided PoC) | Automated continuous control monitoring across 20+ frameworks, SafeBase interactive Trust Center, and custom no-code remediation workflows. |
+| [**Druva**](https://www.druva.com/) | 🦄 **$2.0B Valuation**<br>📈 *$200M+ ARR* | **$8/user/month** (Enterprise endpoint backup baseline; workload tiers scale by consumed TB) | **30-Day Free Trial** (Full evaluation environment, cloud backup testing, sensitive data governance console) | Cloud-native data resiliency, sensitive data governance dashboard, endpoint DLP, remote wipe, and delegated end-user violation resolution. |
+| [**Secureframe**](https://secureframe.com/) | 🏢 **$500M Valuation**<br>📈 *$25M+ ARR* | **$7,500/year** (Fundamentals tier, single framework, baseline continuous monitoring) | **No free tier or public trial** (Guided enterprise product walkthrough & scoped demo) | 300+ native cloud integrations, Comply AI remediation, vendor risk management, and federal CMMC / FedRAMP readiness automation. |
+| [**Thoropass**](https://thoropass.com/) | 🏢 **$300M Valuation**<br>📈 *$43M+ ARR* | **$14,500/year** (Bundled entry: ~$8,700/yr platform + ~$5,800/yr audit subscription) | **14-Day Free Trial** (Specifically for Due Diligence Questionnaire / DDQ automation module only) | Unified software + audit partner model, streamlined multi-framework audits for SOC 2, ISO 27001, HITRUST, DORA, C5, and CSA STAR. |
+| [**TrustArc**](https://trustarc.com/) | 🏢 **$150M+ Valuation**<br>📈 *$55M–$82M ARR* | **$10,000/year** (Privacy Studio baseline for privacy risk & cookie consent) | **No permanent free tier** (Limited 14-day evaluation accounts available for Nymity regulatory research) | Arc Intelligence explainable AI, 1,000+ global data privacy regulations mapped with citations, DSAR management, and Cookie Consent Studio. |
+| [**Scrut Automation**](https://www.scrut.io/) | 🏢 **$75M Valuation**<br>📈 *$10M+ ARR* | **$15,000/year** (Entry-level compliance automation for small teams &lt;20 employees) | **No free tier or trial** (Demo-gated platform access via compliance engineering team) | Scrut Teammates AI agents, proprietary risk knowledge graph, ISO 42001 certified AI risk governance, and automated gap remediation. |
+| [**Hyperproof**](https://hyperproof.io/) | 🏢 **$72.5M+ Valuation**<br>📈 *$40M–$45M ARR* | **$12,000/year** (Professional tier, includes unlimited user seats) | **No free tier or public trial** (Scheduled personalized product demo and custom pilot) | AI Guided Experiences, automated evidence health checks, cross-framework control mapping, and unified risk register management. |
+| [**Sprinto**](https://sprinto.com/) | 🏢 **$60M+ Valuation**<br>📈 *$12M–$15M ARR* | **$6,000/year** (Starter tier for early-stage companies for single framework) | **No free tier or hands-on public trial** (Personalized product scoping demo) | 200+ digitized controls, 25+ automated frameworks, multi-entity approval workflows, ISO 27005 risk mapping, and continuous audit health checks. |
 
-### Microsoft Presidio
-**Stack:** Python | **License:** MIT
-Microsoft Presidio is the most established open-source PII detection and anonymization library, pairing spaCy NER with regex, rule-based recognizers, and checksums . It provides **50+ predefined recognizers** (credit cards, SSNs, phone numbers, names, locations, financial data, bitcoin wallets) plus custom recognizers, covering text and DICOM/standard images across multiple languages with context-aware confidence scoring . The separate Anonymizer module can mask, redact, hash, or encrypt findings in the same pipeline . **Trade-off:** There is no native database scanner—you sample rows yourself and tag results yourself. It is a library, not a complete DLP platform.
-**Best for:** Developers building custom PII detection pipelines who want a proven, flexible library with both detection and anonymization capabilities.
+---
 
-### Hawk-Eye
-**Stack:** Python | **License:** Open Source
-Hawk-Eye is a broad-spectrum sensitive data discovery scanner covering databases, cloud storage, and files including images and videos via OCR . It does pattern matching with configurable fingerprints in YAML and runs OCR across 350+ file types (DOCX, PDF, images, videos). Data sources include MySQL, PostgreSQL, MongoDB, CouchDB, Redis, S3, Google Cloud Storage, Firebase, Slack, Google Drive, and local filesystem . **Differentiator:** It follows PII wherever it leaks—Slack threads, CSVs in S3, screenshots in Drive—rather than stopping at the database boundary.
-**Best for:** Security teams needing to audit sensitive data across diverse sources beyond just databases, particularly where PII has spread into SaaS and cloud storage.
+## 💻 Open-Source Software
 
-### Data Boar
-**Stack:** Python / SQLite / REST API | **License:** Open Core
-Data Boar is a technical inventory and triage tool that finds where personal and sensitive data may live across databases, filesystems, APIs, shares, Power BI, and Dataverse . It assigns technical severity and norm-oriented hints while leaving lawful basis and purpose decisions to DPOs and counsel. It runs as a one-shot CLI or REST API with a web dashboard, outputs findings to SQLite, and produces Excel reports and heatmaps . It is explicitly positioned as an evidence layer for audits and DLP rollout preparation, not as a full DLP enforcement engine.
-**Best for:** DPOs and compliance consultants wanting technical evidence of data locations and sensitive data posture before a DLP rollout or audit.
+Self-hosted, transparent, and community-driven tools for data loss prevention, regulatory compliance monitoring, security posture scanning, and sensitive data discovery.
 
-### Lacuna
-**Stack:** Python / PostgreSQL | **License:** Open Source
-Lacuna is a governance and data classification engine that combines automatic classification (heuristics, embeddings, LLM) with **lineage tracking** and **policy-as-code via Open Policy Agent (OPA)** . It tracks source → transformation → destination, propagates classification through joins and derivations (PUBLIC + PROPRIETARY = PROPRIETARY), and enforces allow/deny decisions considering data tier, user role, destination, and purpose . It includes ISO 27001-compliant audit logging with tamper-evident hash chains and complete provenance (who, what, when, why, how).
-**Best for:** Data engineering and governance teams wanting classification that propagates through lineage with policy enforcement and audit-grade provenance.
+> ℹ️ *Sorted descending by GitHub star counts. Click the star badge beside each project to inspect community stargazers.*
 
-### Gitleaks / Betterleaks
-**Stack:** Go | **License:** MIT
-Gitleaks is a secrets scanner that is now feature-complete, with future releases intended primarily for security patches while feature development shifts to **Betterleaks** . Both tools detect credentials and API tokens in repositories, files, and CI workflows, with Betterleaks adding contextual filtering, extensible validation, and broader source coverage (GitHub/GitLab APIs, Hugging Face, S3, local files) . They can gate commits and CI/CD workflows. **Limitation:** These are specialized secrets scanners for development environments, not enterprise DLP platforms—organizations seeking policy across SaaS, email, browsers, endpoints, and AI activity typically need a dedicated DLP layer alongside them.
-**Best for:** DevOps teams wanting preventive secrets scanning in repositories and CI/CD pipelines, accepting that broader data protection requires additional tooling.
+### 1. [Gitleaks](https://github.com/gitleaks/gitleaks) [![Stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
+* **Stack:** Go | **License:** MIT
+* **Description:** Ultra-fast, battle-tested scanner for finding and preventing hardcoded secrets, API tokens, passwords, and private keys in Git repositories, local files, and CI/CD pipelines. Features regex rule-sets, entropy checking, pre-commit hook enforcement, and developer workflow gates.
+* **Best For:** DevOps and engineering teams requiring developer-side DLP gating across commits, pull requests, and CI/CD pipelines.
 
-### Wazuh (Compliance Monitoring Context)
-**Stack:** C++ / OpenSearch | **License:** GPL-2.0
-Wazuh is primarily a SIEM, XDR, and File Integrity Monitoring platform, **not a dedicated DLP solution** . However, its FIM capabilities can report content changes, and it documents custom PAN scanning rules for detecting unmasked payment card numbers . These capabilities can contribute telemetry and compliance monitoring while a dedicated DLP layer handles broader content classification and data movement policy. Wazuh is often used alongside DLP tools rather than as a replacement.
-**Best for:** Security teams already using Wazuh for SIEM/FIM who want to add basic sensitive-data detection rules while pairing with a dedicated DLP solution for comprehensive coverage.
+### 2. [TruffleHog](https://github.com/trufflesecurity/trufflehog) [![Stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)
+* **Stack:** Go | **License:** AGPL-3.0
+* **Description:** Deep credential and secrets detection engine that scans git history, branches, file systems, and S3 buckets. Distinctively supports live credential verification against 800+ API providers to confirm whether leaked keys are active and exploitable.
+* **Best For:** AppSec teams auditing historical codebase exposure and verifying real-world exploitability of leaked sensitive credentials.
+
+### 3. [Wazuh](https://github.com/wazuh/wazuh) [![Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)
+* **Stack:** C / C++ / Python / OpenSearch | **License:** GPL-2.0
+* **Description:** Comprehensive open-source SIEM, XDR, and File Integrity Monitoring (FIM) platform. Features out-of-the-box compliance monitoring modules for PCI-DSS, GDPR, HIPAA, and NIST 800-53, plus custom regex and PAN detection rules to capture unmasked cardholder data and file tampering.
+* **Best For:** SOC and infrastructure teams seeking unified host-based compliance monitoring, regulatory audit log telemetry, and FIM file change detection.
+
+### 4. [Prowler](https://github.com/prowler-cloud/prowler) [![Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers)
+* **Stack:** Python | **License:** Apache-2.0
+* **Description:** Leading open-source security tool for AWS, Azure, GCP, and Kubernetes cloud compliance assessments. Automates continuous checks against CIS Benchmarks, NIST, ISO 27001, GDPR, HIPAA, and PCI-DSS, identifying misconfigured storage and exposed sensitive cloud assets.
+* **Best For:** Cloud security engineers requiring automated multi-cloud compliance posture assessments and continuous infrastructure auditing.
+
+### 5. [Microsoft Presidio](https://github.com/data-privacy-stack/presidio) [![Stars](https://img.shields.io/github/stars/data-privacy-stack/presidio?style=social&color=white)](https://github.com/data-privacy-stack/presidio/stargazers)
+* **Stack:** Python | **License:** MIT
+* **Description:** Extensible NLP-powered framework for detecting, redacting, and anonymizing Personally Identifiable Information (PII) in text, DICOM medical files, and images. Ships with 50+ predefined recognizers (SSN, credit cards, IBAN, names, locations) and pluggable modules for hashing, masking, and encrypting data streams.
+* **Best For:** Data engineering and AI teams needing programmatic PII redaction and privacy sanitization across ETL pipelines and LLM context windows.
+
+### 6. [Steampipe](https://github.com/turbot/steampipe) [![Stars](https://img.shields.io/github/stars/turbot/steampipe?style=social&color=white)](https://github.com/turbot/steampipe/stargazers)
+* **Stack:** Go / PostgreSQL | **License:** AGPL-3.0
+* **Description:** SQL-based multi-cloud inspection engine that exposes cloud infrastructure, SaaS APIs, and GitHub as relational tables. Offers open-source compliance suites (`steampipe-mod-aws-compliance`) for querying CIS, HIPAA, and NIST compliance rules using plain SQL statements.
+* **Best For:** Security auditors and infrastructure engineers who prefer querying compliance benchmarks and asset inventories via standard SQL.
+
+### 7. [American Express EarlyBird](https://github.com/americanexpress/earlybird) [![Stars](https://img.shields.io/github/stars/americanexpress/earlybird?style=social&color=white)](https://github.com/americanexpress/earlybird/stargazers)
+* **Stack:** Go | **License:** Apache-2.0
+* **Description:** Open-source sensitive data detection scanner developed by American Express to inspect source code repositories, filesystems, and directories for cleartext passwords, PII, deprecated cryptographic algorithms, and secret keys prior to deployment.
+* **Best For:** Enterprise security teams seeking an auditor-approved code scanner customized for financial and regulatory compliance checks.
+
+### 8. [HAWK Eye](https://github.com/rohitcoder/hawk-eye) [![Stars](https://img.shields.io/github/stars/rohitcoder/hawk-eye?style=social&color=white)](https://github.com/rohitcoder/hawk-eye/stargazers)
+* **Stack:** Python | **License:** Apache-2.0
+* **Description:** Sensitive data discovery scanner covering databases (MySQL, PostgreSQL, MongoDB, Redis), S3, GCS, Slack, and local files. Runs OCR across 350+ file formats (including scanned PDFs, DOCX, and images) to track down PII wherever files migrate across corporate repositories.
+* **Best For:** Security auditors needing forensic data discovery across unstructured cloud buckets, databases, and collaboration media.
+
+### 9. [Openlane Core](https://github.com/theopenlane/core) [![Stars](https://img.shields.io/github/stars/theopenlane/core?style=social&color=white)](https://github.com/theopenlane/core/stargazers)
+* **Stack:** Go / GraphQL / PostgreSQL | **License:** Apache-2.0
+* **Description:** Modern, self-hostable compliance automation platform designed as an open-source alternative to Vanta and Drata. Provides full GRC modules for control mapping, evidence collection, vendor risk assessments, policy tracking, and public Trust Center publishing.
+* **Best For:** Organizations seeking a self-hosted GRC platform to manage SOC 2, ISO 27001, and GDPR evidence without proprietary SaaS lock-in.
+
+### 10. [Data Boar](https://github.com/DataBoar/data-boar) [![Stars](https://img.shields.io/github/stars/DataBoar/data-boar?style=social&color=white)](https://github.com/DataBoar/data-boar/stargazers)
+* **Stack:** Python / SQLite | **License:** Apache-2.0
+* **Description:** Local-first, privacy-conscious PII scanner and evidence collector for databases, network shares, filesystems, and APIs. Analyzes data severity, outputs audit-ready SQLite records, and produces structured Excel heatmaps for DPOs preparing for GDPR and LGPD audits.
+* **Best For:** Data Protection Officers (DPOs) and compliance auditors preparing gap analyses and technical evidence for data privacy audits.
+
+### 11. [Lacuna](https://github.com/witlox/lacuna) [![Stars](https://img.shields.io/github/stars/witlox/lacuna?style=social&color=white)](https://github.com/witlox/lacuna/stargazers)
+* **Stack:** Python / PostgreSQL / OPA | **License:** MIT
+* **Description:** Policy-driven data governance and sensitive classification engine. Integrates lineage tracking, automated classification heuristics, and Open Policy Agent (OPA) policy-as-code to enforce fine-grained data transfer and retention rules with tamper-evident audit logs.
+* **Best For:** Data platform architects requiring automated data lineage tagging and policy-as-code enforcement during ETL transformations.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Compliance Automation | DLP/PII Detection | Policy-as-Code | Self-Hosted | Best For |
-|----------|---------|-------|----------------------|-------------------|----------------|-------------|----------|
-| **Vanta** | Proprietary | Cloud | ✅ Agentic | ❌ | (AI policies) | ❌ | AI-powered audit readiness |
-| **Drata** | Proprietary | Cloud | ✅ Multi-framework | ❌ | (No-code) | ❌ | Enterprise GRC + SafeBase |
-| **Secureframe** | Proprietary | Cloud | ✅ Tiered | ❌ | (Comply AI) | ❌ | Mid-market + CMMC |
-| **Hyperproof** | Proprietary | Cloud | ✅ AI Guided | ❌ | ❌ | ❌ | AI-assisted mapping |
-| **Scrut** | Proprietary | Cloud | ✅ AI Teammates | ❌ | ❌ | ❌ | ISO 42001 AI governance |
-| **Sprinto** | Proprietary | Cloud | ✅ Multi-approval | ❌ | (Rule engine) | ❌ | Granular approvals |
-| **Thoropass** | Proprietary | Cloud | ✅ Multi-framework | ❌ | ❌ | ❌ | DORA/C5/CSA STAR |
-| **TrustArc** | Proprietary | Cloud | (Privacy-focused) | ❌ | ❌ | ❌ | Privacy AI + citations |
-| **Druva** | Proprietary | Cloud | (Sensitive data) | ✅ End-user resolution | ❌ | ❌ | DLP + remote wipe |
-| **Openlane Core** | Apache-2.0 | Go/GraphQL | ✅ Full GRC | ❌ | (Workflow) | ✅ | OSS compliance automation |
-| **Presidio** | MIT | Python | ❌ | ✅ 50+ recognizers | ❌ | ✅ (Library) | PII detection + anonymization |
-| **Hawk-Eye** | Open Source | Python | ❌ | ✅ OCR + 350 types | ❌ | ✅ | Broad sensitive data discovery |
-| **Data Boar** | Open Core | Python | ❌ | ✅ Inventory + triage | ❌ | ✅ | Audit evidence layer |
-| **Lacuna** | Open Source | Python/Postgres | ❌ | ✅ Classification + lineage | ✅ OPA | ✅ | Lineage-aware governance |
-| **Gitleaks** | MIT | Go | ❌ | ✅ Secrets only | ❌ | ✅ | CI/CD secrets scanning |
+| Software Solution | Category | License / Deployment | Compliance Automation | DLP / PII Detection | Policy-as-Code Engine | Continuous Monitoring | Primary Strengths |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :--- |
+| **Vanta** | SaaS | Commercial Cloud | ✅ | ❌ | AI Policy Ops | ✅ | Autonomous agentic compliance, ISO 42001 certification |
+| **Drata** | SaaS | Commercial Cloud | ✅ | ❌ | No-Code Builder | ✅ | SafeBase Trust Center, 20+ frameworks, multi-HRIS syncing |
+| **Druva** | SaaS | Commercial Cloud | ❌ | ✅ | Rules Engine | ✅ | Endpoint sensitive data discovery, remote wipe, backup DLP |
+| **Secureframe** | SaaS | Commercial Cloud | ✅ | ❌ | Comply AI | ✅ | 300+ integrations, transparent tiers, CMMC federal readiness |
+| **Thoropass** | SaaS | Commercial Cloud | ✅ | ❌ | Custom Rules | ✅ | Integrated audit partner model, DORA / C5 / HITRUST coverage |
+| **TrustArc** | SaaS | Commercial Cloud | (Privacy GRC) | ❌ | Arc Intelligence | ✅ | 1,000+ citation-backed privacy regulations, DSAR workflows |
+| **Scrut Automation**| SaaS | Commercial Cloud | ✅ | ❌ | AI Workflows | ✅ | ISO 42001 AI risk management, Scrut Teammates agents |
+| **Hyperproof** | SaaS | Commercial Cloud | ✅ | ❌ | Custom Workflows | ✅ | AI Suggested Links, evidence health check, unlimited seats |
+| **Sprinto** | SaaS | Commercial Cloud | ✅ | ❌ | Multi-Approval | ✅ | Fast sprint-based onboarding, 200+ digitized controls |
+| **Gitleaks** | OSS | MIT (Self-Hosted) | ❌ | ✅ (Secrets/Keys) | Regex Config | (CI/CD) | Ultra-fast pre-commit and CI/CD secret scanning |
+| **TruffleHog** | OSS | AGPL-3.0 (Self-Hosted)| ❌ | ✅ (Secrets/Keys) | Rule Detectors | (Git Scans) | Live API key validation, deep commit history analysis |
+| **Wazuh** | OSS | GPL-2.0 (Self-Hosted)| ✅ (SIEM/Rules) | ✅ (Regex/PAN) | XML/Decoders | ✅ | File integrity monitoring, SIEM, PCI-DSS / HIPAA auditing |
+| **Prowler** | OSS | Apache-2.0 (Self-Hosted)| ✅ (Cloud Posture)| ❌ | Custom Checks | ✅ | Multi-cloud CIS, NIST, ISO 27001 automated compliance scans |
+| **Presidio** | OSS | MIT (Self-Hosted) | ❌ | ✅ (PII & NLP) | Custom Recognizers| (Pipeline) | Enterprise NLP-based PII identification and anonymization |
+| **Steampipe** | OSS | AGPL-3.0 (Self-Hosted)| ✅ (Compliance Mods)| ❌ | SQL Queries | (Query-time) | SQL querying of live cloud security controls and benchmarks |
+| **EarlyBird** | OSS | Apache-2.0 (Self-Hosted)| ❌ | ✅ (PII & Secrets)| Custom Signatures | (Build-time) | Pre-deployment source code sensitive data scanning |
+| **HAWK Eye** | OSS | Apache-2.0 (Self-Hosted)| ❌ | ✅ (OCR & 350+ Files)| YAML Signatures | (Batch Scans) | Multi-storage PII discovery across databases and S3 buckets |
+| **Openlane Core** | OSS | Apache-2.0 (Self-Hosted)| ✅ (Full GRC) | ❌ | Workflow Engine | ✅ | Comprehensive self-hosted open-source alternative to Vanta |
+| **Data Boar** | OSS | Apache-2.0 (Self-Hosted)| ❌ | ✅ (PII Inventory) | Normative Rules | (On-demand) | Forensic PII triage, heatmap generation for DPO audits |
+| **Lacuna** | OSS | MIT (Self-Hosted) | ❌ | ✅ (Lineage Tags) | OPA (Rego) | (ETL-time) | Lineage-aware governance, policy-as-code classification |
+
+---
+
+## 🎯 Frameworks & Key Standards
+
+The tools in this catalog assist security and governance teams in fulfilling controls for:
+
+* **SOC 2 (Type I & Type II):** Trust Services Criteria for Security, Availability, Processing Integrity, Confidentiality, and Privacy.
+* **ISO/IEC 27001:2022 & ISO 42001:** Information security management and artificial intelligence governance systems.
+* **HIPAA Security & Privacy Rules:** Safeguards for protected health information (ePHI) discovery and breach prevention.
+* **GDPR & CCPA / CPRA:** Data minimization, right-to-be-forgotten (DSAR), and cross-border data transfer compliance.
+* **PCI-DSS v4.0:** Primary Account Number (PAN) discovery, tokenization, cardholder environment isolation, and continuous file integrity monitoring.
+* **NIST SP 800-53 / CMMC:** Federal security controls, assessment objectives, and system security plan (SSP) generation.
+* **DORA (Digital Operational Resilience Act):** European operational risk management and ICT third-party service provider oversight.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Regulatory Compliance or DLP Monitoring tool that should be listed here, please open a pull request with:
+Contributions, issues, and feature proposals are welcomed with open arms!
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. Fork the Project 🍴
+2. Create your Feature Branch (`git checkout -b feature/AddAwesomeTool`)
+3. Commit your Changes (`git commit -m "Add new compliance or DLP tool"`)
+4. Push to the Branch (`git push origin feature/AddAwesomeTool`)
+5. Open a Pull Request 🚀
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits sharply** between **compliance automation platforms** (Openlane Core) and **data discovery/PII detection tools** (Presidio, Hawk-Eye, Data Boar, Lacuna, Gitleaks). There is **no single open-source project** that replicates the combined compliance automation and DLP monitoring breadth of Vanta or Druva. **Presidio** is the most mature open-source PII detection library with both detection and anonymization , while **Hawk-Eye** offers the broadest data source coverage . **Openlane Core** is the strongest open-source compliance automation foundation under Apache-2.0 . For organizations needing enterprise-grade DLP with content-aware enforcement across SaaS, email, and endpoints, commercial platforms remain the only viable option.
+*Please ensure submitted open-source tools are actively maintained (commit/release within the past 12 months) and properly categorized with stack and licensing details.*
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are released under the [CC0 1.0 Universal (Public Domain Dedication)](./LICENSE).  
+Individual listed tools and products remain the intellectual property and copyright of their respective owners and vendors.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>Found this resource valuable? Give it a star to help other security engineers and GRC practitioners!</b> ⭐
+</p>
